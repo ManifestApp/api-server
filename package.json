@@ -1,0 +1,41 @@
+{
+  "name": "manifestapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "engines": {
+    "node": ">=8.14.1"
+  },
+  "scripts": {
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManifestApp/api-server.git"
+  },
+  "contributors": [
+    {
+      "name": "Laurent Meyer",
+      "email": "laurent.m.meyer@gmail.com",
+      "url": "https://twitter.com/Laurent_m_Meyer"
+    },
+    {
+      "name": "Matthieu Bulté",
+      "email": "matthieu.bulte.06@gmail.com",
+      "url": "https://twitter.com/matthieubulte"
+    }
+  ],
+  "license": "GPL-3.0-only ",
+  "bugs": {
+    "url": "https://github.com/ManifestApp/api-server/issues"
+  },
+  "homepage": "https://github.com/ManifestApp/api-server#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
